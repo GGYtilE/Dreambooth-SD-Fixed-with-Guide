@@ -1,3 +1,13 @@
+# Modification 
+
+I attempted to train and inference following the existing [Dreambooth implementation](https://github.com/XavierXiao/Dreambooth-Stable-Diffusion), but encountered some errors.
+
+Therefore, I have made some modifications and added guidelines.<br>
+As of August 5th, 2024, it works properly on Colab.<br>
+Please refer to the [DreamBooth_Guide.ipynb](https://github.com/GGYtilE/Dreambooth-SD-Fixed-with-Guide/blob/main/DreamBooth_Guide.ipynb) file for instructions on how to run it.
+
+The following README is from the [original GitHub repository](https://github.com/XavierXiao/Dreambooth-Stable-Diffusion).
+
 # Dreambooth on Stable Diffusion
 
 This is an implementtaion of Google's [Dreambooth](https://arxiv.org/abs/2208.12242) with [Stable Diffusion](https://github.com/CompVis/stable-diffusion). The original Dreambooth is based on [Imagen](https://imagen.research.google/) text-to-image model. However, neither the model nor the pre-trained weights of Imagen is available. To enable people to fine-tune a text-to-image model with a few examples, I implemented the idea of Dreambooth on Stable diffusion.
