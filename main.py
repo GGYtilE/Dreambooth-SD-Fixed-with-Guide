@@ -718,7 +718,7 @@ if __name__ == "__main__":
         }
         if version.parse(pl.__version__) >= version.parse('1.4.0'):
             default_callbacks_cfg.update({'checkpoint_callback': modelckpt_cfg})
-
+        '''
         if "callbacks" in lightning_config:
             callbacks_cfg = lightning_config.callbacks
         else:
@@ -741,6 +741,8 @@ if __name__ == "__main__":
                      }
             }
             default_callbacks_cfg.update(default_metrics_over_trainsteps_ckpt_dict)
+        '''
+        callbacks_cfg = OmegaConf.create()
 
         callbacks_cfg = OmegaConf.merge(default_callbacks_cfg, callbacks_cfg)
         if 'ignore_keys_callback' in callbacks_cfg and hasattr(trainer_opt, 'resume_from_checkpoint'):
