@@ -1,0 +1,7 @@
+omegaconf==2.3.0
+einops==0.8.0
+pytorch_lightning==1.9.0
+taming-transformers-rom1504==0.0.6
+clip==0.2.0
+kornia==0.7.3
+test_tube==0.7.5
