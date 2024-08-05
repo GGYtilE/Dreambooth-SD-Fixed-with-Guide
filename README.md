@@ -8,6 +8,15 @@ Please refer to the [DreamBooth_Guide.ipynb](https://github.com/GGYtilE/Dreamboo
 
 The following README is from the [original GitHub repository](https://github.com/XavierXiao/Dreambooth-Stable-Diffusion).
 
+Translation in Korean: <br>
+기존의 Dreambooth Implementation을 따라 훈련, 추론을 진행하려 했으나 몇 가지 에러사항이 존재했습니다.
+
+따라서, 몇 가지 수정사항을 반영하고 가이드라인을 추가하였습니다.<br>
+2024/08/05일 기준 Colab에서 정상적으로 작동합니다. <br>
+실행방법은 DreamBooth_Guide.ipynb 파일을 참고해주세요
+
+아래의 README는 기존 github의 내용입니다. 
+
 # Dreambooth on Stable Diffusion
 
 This is an implementtaion of Google's [Dreambooth](https://arxiv.org/abs/2208.12242) with [Stable Diffusion](https://github.com/CompVis/stable-diffusion). The original Dreambooth is based on [Imagen](https://imagen.research.google/) text-to-image model. However, neither the model nor the pre-trained weights of Imagen is available. To enable people to fine-tune a text-to-image model with a few examples, I implemented the idea of Dreambooth on Stable diffusion.
